@@ -18,5 +18,5 @@ def fetch_dependencies
   puts "Fetching jQuery ..."
   system "curl -o build/javascripts/jquery.min.js http://code.jquery.com/jquery-latest.min.js"
   puts "Fetching normalize.css"
-  system "curl -o source/stylesheets/vendor/_normalize.scss https://raw.github.com/necolas/normalize.css/master/normalize.css"
+  system "curl -o source/stylesheets/vendor/_normalize.scss https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css"
 end
